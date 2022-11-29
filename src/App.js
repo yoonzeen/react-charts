@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NivoPage from './pages/NivoPage';
+import ReactCharts2Page from './pages/ReactCharts2Page';
+import RechartsPage from './pages/RechartsPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/ChartsPage/RechartsPage" element={<RechartsPage />} />
+          <Route path="/ChartsPage/ReactCharts2Page" element={<ReactCharts2Page />} />
+          <Route path="/ChartsPage/NivoPage" element={<NivoPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
