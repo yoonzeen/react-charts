@@ -21,7 +21,8 @@ const recharts = {
         `,
 };
         
+const CHARTS = {
+    nivo, reactchartjs2, recharts  
+};
 
-export default {
-    nivo, reactchartjs2, recharts 
-}
+export default CHARTS
