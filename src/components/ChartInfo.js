@@ -6,7 +6,7 @@ const ChartInfo = ({title, desc}) => {
         <div>
             <div className="btnWrap nav"><Link to="/" className="btnMain">메인으로 가기</Link></div>
             <h2>{title}</h2>
-            <p>{desc.replaceAll(/\n/g, '<br/>')}</p>
+            <p className="mb30" dangerouslySetInnerHTML={{__html : desc.replaceAll(/\n/g, '<br/>')}}></p>
         </div>
     );
 };

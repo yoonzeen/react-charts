@@ -1,30 +1,27 @@
 const nivo = {
-    title: 'chart.js',
+    title: 'Nivo',
     desc:
-        `- 단순해서 확장 가능 
-        - Area Chart, Bar Chart, Bubble Chart, Doughnut and Pie Charts, Line Chart … 등등
-         - 툴팁, hover 등 스타일 커스터마이징 가능`,
+        `- 웹에서 쉽게 스타일링 가능
+        - 다양한 차트 모양
+        - bar와 line 등이 합쳐진 형태의 차트 불가(단순한 차트만 가능)`,
 };
-const reactcharts2 = {
-    title: 'Apex Charts',
+const reactchartjs2 = {
+    title: 'React-Chartjs-2',
     desc:
-        `- Line, Area, Column, Pie, Bar, Polar 등등 
-         - 웹에서 다양한 차트 데모 제공
-         - 커서로 영역 설정하여 돋보기 기능
-         - 브라우저에서 각 차트의 svg, png, csv 버전으로 차트 내보내기 가능
-         - 로딩이 길 수 있음`,
+        `- 웹에서 다양한 차트 데모 제공
+        - chart.js의 리액트 앱으로 렌더링
+        - vue와 동일한 차트 라이브러리로 사용 가능
+        `,
 };
 const recharts = {
-    title: 'High Charts',
+    title: 'Recharts',
     desc:
-        `- 3d 차트, 간트 차트도 구현 가능
-        - 웹에서 다양한 차트 데모 제공
-        - 테마에 따라 샘플 컬러 제공
-        - 브라우저에서 각 차트의 svg, png, csv 등 여러 버전으로 차트 내보내기 가능
+        `- 웹에서 다양한 차트 데모 제공
+        - 툴팁 html 커스터마이징 가능
         `,
 };
         
 
 export default {
-    nivo, reactcharts2, recharts 
+    nivo, reactchartjs2, recharts 
 }
