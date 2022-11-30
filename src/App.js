@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<RechartsPage />} />
+          <Route path="/ChartsPage/RechartsPage" element={<RechartsPage />} />
           <Route path="/ChartsPage/ReactChartjs2Page" element={<ReactChartjs2Page />} />
           <Route path="/ChartsPage/NivoPage" element={<NivoPage />} />
         </Routes>
