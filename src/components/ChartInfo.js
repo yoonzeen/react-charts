@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ChartInfo = ({title, desc}) => {
     return (
         <div>
-            <div className="btnWrap nav"><Link to="/" className="btnMain">메인으로 가기</Link></div>
+            <div className="btnWrap nav"><a href="https://zeen-vue-charts.netlify.app" className="btnMain" title="메인으로 가기">메인으로 가기</a></div>
             <h2>{title}</h2>
             <p className="mb30" dangerouslySetInnerHTML={{__html : desc.replaceAll(/\n/g, '<br/>')}}></p>
         </div>
