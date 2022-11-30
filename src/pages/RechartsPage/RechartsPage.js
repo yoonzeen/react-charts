@@ -10,7 +10,7 @@ const RechartsPage = () => {
         <div>
             <ChartInfo title={title} desc={desc}  />
             <div className="btnWrap mb30">
-              <a className="btnGoToWeb" href="https://recharts.org/en-US/" title="recharts" target="_blank">Recharts 문서</a>
+              <a className="btnGoToWeb" href="https://recharts.org/en-US/" title="recharts" target="_blank" rel="noreferrer">Recharts 문서</a>
             </div>
             <div>
               <LineChartComp />

@@ -10,7 +10,7 @@ const NivoPage = () => {
         <div>
             <ChartInfo title={title} desc={desc}  />
             <div className='btnWrap mb30'>
-                <a className='btnGoToWeb' href="https://nivo.rocks/" target="_blank" title="nivo">Nivo 문서</a>
+                <a className='btnGoToWeb' href="https://nivo.rocks/" target="_blank" rel="noreferrer" title="nivo">Nivo 문서</a>
             </div>
             <LineChartComp />
             <DoughnutComp />

@@ -31,7 +31,7 @@ const ReactCharts2Page = () => {
         <div>
             <ChartInfo title={title} desc={desc}  />
             <div className='btnWrap mb30'>
-                <a className='btnGoToWeb' href="https://react-chartjs-2.js.org/" target="_blank" title="react-chartjs-2">react-chartjs-2 문서</a>
+                <a className='btnGoToWeb' href="https://react-chartjs-2.js.org/" target="_blank" rel="noreferrer" title="react-chartjs-2">react-chartjs-2 문서</a>
             </div>
             <div>
                 <div className="mb30">
